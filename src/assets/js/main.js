@@ -308,7 +308,7 @@
 
     $('#circle3')
       .circleProgress({
-        value: 0.3,
+        value: 0.6,
         fill: {
           color: '#08d665',
         },
@@ -317,7 +317,7 @@
       .on('circle-animation-progress', function (event, progress) {
         $(this)
           .find('strong')
-          .html(Math.round(30 * progress) + '<i>%</i>');
+          .html(Math.round(80 * progress) + '<i>%</i>');
       });
 
     $('#circle4')
